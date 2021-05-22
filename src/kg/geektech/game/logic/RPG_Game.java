@@ -18,6 +18,8 @@ public class RPG_Game {
         Hero[] heroes = {warrior, magic, doc, berserk, assistant};
         printStatistics(boss, heroes);
 
+        // Метод начала игры
+
         while (!isGameFinished(boss, heroes)) {
             round(boss, heroes);
         }
